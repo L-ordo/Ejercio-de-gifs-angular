@@ -1,0 +1,39 @@
+/* .search-box {
+  background-color: #b0b0b0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+} */
+
+.search-box {
+  background-color: #b0b0b0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.form-control {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cont {
+  margin-top:15px ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.containergif {
+
+  img{
+    width: 150px;
+    height: 150px;
+  }
+  p{
+    font-size: 10px;
+  }
+}

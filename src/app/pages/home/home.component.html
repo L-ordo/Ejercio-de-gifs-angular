@@ -1,0 +1,16 @@
+<!-- Caja de busqueda -->
+
+<div class="search-box">
+  <h5>Buscar:</h5>
+  <!-- <input type="text" class="form-control" placeholder="Buscar GIFs..." (input)="searchGifs($event.target.value)"> -->
+  <input type="text" class="form-control" placeholder="Buscar GIFs..." (input)="searchGifs($event)">
+
+</div>
+
+
+<div class="cont">
+  <div class="containergif" *ngFor="let gif of trendingGifs" (click)="redirectToDetail(gif.id)">
+    <img [src]="gif.images.fixed_height.url" alt="Trending GIF">
+    <p>Titulo{{ gif.title}}</p>
+  </div>
+</div>

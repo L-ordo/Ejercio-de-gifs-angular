@@ -1,0 +1,5 @@
+<div *ngIf="gifDetail">
+  <h2>{{ gifDetail.title }}</h2>
+  <img [src]="gifDetail.images.fixed_height.url" alt="{{ gifDetail.title }}">
+  <!-- Otros detalles del gif -->
+</div>
